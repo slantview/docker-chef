@@ -1,0 +1,9 @@
+{
+  "name": "php_app",
+  "default_attributes": { },
+  "override_attributes": { },
+  "json_class": "Chef::Role",
+  "description": "Role for PHP Application.",
+  "chef_type": "role",
+  "run_list": [ "recipe[nginx]", "recipe[php-fpm]" ]
+}
